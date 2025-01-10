@@ -9,6 +9,7 @@
 To execute tests in parallel, use the following command:
 
 ```sh
+mvn install -DskipTests
 mvn gauge:execute -DspecsDir=specs -DinParallel=true -Dnodes=4
 ```
 
