@@ -29,8 +29,8 @@ public class DriverFactory {
     // Refer
     // http://getgauge.io/documentation/user/current/managing_environments/README.html
 
-    private static final String username = "mkamle86";
-    private static final String accesskey = "s0EHeeN4IjrmpGjGUVKd8YuxYt3dSDsavuaOrLmVS16vZtkv5t";
+    private static final String username = "";
+    private static final String accesskey = "";
     public static final String gridURL = "@hub.lambdatest.com/wd/hub";
     public String status = "passed";
 
