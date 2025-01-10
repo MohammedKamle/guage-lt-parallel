@@ -17,8 +17,8 @@ public class Driver {
     
     // Holds the WebDriver instance
     protected static ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal<>();
-    private static final String username = "mkamle86";
-    private static final String accesskey = "s0EHeeN4IjrmpGjGUVKd8YuxYt3dSDsavuaOrLmVS16vZtkv5t";
+    private static final String username = "";
+    private static final String accesskey = "";
     public static final String gridURL = "@hub.lambdatest.com/wd/hub";
     public String status = "passed";
 
