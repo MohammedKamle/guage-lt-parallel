@@ -1,0 +1,467 @@
+09-01-2025 22:40:33.263 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+09-01-2025 22:40:33.274 [Gauge] [INFO] Initializing specs cache with 1 specs
+09-01-2025 22:40:33.274 [Gauge] [DEBUG] Adding specs from /Users/mohammadk/gauge-java/guage-java-sel/specs/example.spec
+09-01-2025 22:40:33.274 [Gauge] [INFO] Initializing steps cache with 1 steps
+09-01-2025 22:40:33.276 [Gauge] [INFO] Starting language runner
+09-01-2025 22:40:33.278 [Gauge] [DEBUG] Watching directory: /Users/mohammadk/gauge-java/guage-java-sel/specs
+09-01-2025 22:40:33.278 [Gauge] [DEBUG] Found 1 files
+09-01-2025 22:40:33.632 [java] [DEBUG] ***** Printing Properties/Env Values *****
+09-01-2025 22:40:33.644 [java] [DEBUG] PATH: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin:/usr/local/Cellar/openjdk@11/11.0.24/libexec/openjdk.jdk/Contents/Home/bin:/Users/mohammadk/Library/Android/sdk/emulator:/Users/mohammadk/Library/Android/sdk/tools:/Users/mohammadk/Library/Android/sdk/platform-tools:/Users/mohammadk/Library/Android/sdk/tools:/Users/mohammadk/.nvm/versions/node/v18.15.0/bin:/usr/local/bin:/usr/local/sbin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/mohammadk/.gauge/plugins/screenshot/0.3.0
+09-01-2025 22:40:33.644 [java] [DEBUG] JAVA_HOME: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home
+09-01-2025 22:40:33.644 [java] [DEBUG] gauge_project_root: 
+09-01-2025 22:40:33.644 [java] [DEBUG] gauge_parallel_streams_count: 
+09-01-2025 22:40:33.644 [java] [DEBUG] gauge_reports_dir: reports
+09-01-2025 22:40:33.644 [java] [DEBUG] overwrite_reports: true
+09-01-2025 22:40:33.644 [java] [DEBUG] logs_directory: logs
+09-01-2025 22:40:33.644 [java] [DEBUG] enable_multithreading: false
+09-01-2025 22:40:33.644 [java] [DEBUG] gauge_specs_dir: specs
+09-01-2025 22:40:33.644 [java] [DEBUG] csv_delimiter: ,
+09-01-2025 22:40:33.644 [java] [DEBUG] gauge_java_home: 
+09-01-2025 22:40:33.644 [java] [DEBUG] gauge_custom_build_path: 
+09-01-2025 22:40:33.644 [java] [DEBUG] gauge_additional_libs: libs/*
+09-01-2025 22:40:33.644 [java] [DEBUG] gauge_jvm_args: 
+09-01-2025 22:40:33.644 [java] [DEBUG] gauge_custom_compile_dir: 
+09-01-2025 22:40:33.644 [java] [DEBUG] gauge_clear_state_level: scenario
+09-01-2025 22:40:33.644 [java] [DEBUG] ***** END *****
+09-01-2025 22:40:33.700 [java] [ERROR] The JAVA_HOME environment variable is not defined correctly,
+09-01-2025 22:40:33.700 [java] [ERROR] this environment variable is needed to run this program.
+09-01-2025 22:40:33.701 [java] [ERROR] exit status 1
+09-01-2025 22:40:33.701 [java] [ERROR] Installed version of gauge-java (0.11.2) does not match with dependency gauge-java () specified in pom.xml file
+09-01-2025 22:40:33.703 [java] [DEBUG] failed to get full path for javac. lstat /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home: no such file or directory
+09-01-2025 22:40:33.707 [java] [DEBUG] running - javac [-encoding UTF-8 -d gauge_bin @/var/folders/wv/nzqhpy6d18gfhd55gq_t8kr00000gq/T/gauge_temp2060100851/1b75d90b02796e20b3a6a1b0791aa6bd]
+09-01-2025 22:40:33.707 [java] [DEBUG] stdout/stderr is logged to logs/95670-javac.out
+09-01-2025 22:40:36.111 [java] [ERROR] src/test/java/StepImplementation.java:4: error: package org.openqa.selenium does not exist
+09-01-2025 22:40:36.130 [java] [ERROR] import org.openqa.selenium.By;
+09-01-2025 22:40:36.130 [java] [ERROR] ^
+09-01-2025 22:40:36.130 [java] [ERROR] src/test/java/StepImplementation.java:5: error: package org.openqa.selenium does not exist
+09-01-2025 22:40:36.130 [java] [ERROR] import org.openqa.selenium.WebElement;
+09-01-2025 22:40:36.130 [java] [ERROR] ^
+09-01-2025 22:40:36.206 [java] [ERROR] src/test/java/driver/Driver.java:5: error: package org.openqa.selenium does not exist
+09-01-2025 22:40:36.206 [java] [ERROR] import org.openqa.selenium.WebDriver;
+09-01-2025 22:40:36.206 [java] [ERROR] ^
+09-01-2025 22:40:36.212 [java] [ERROR] src/test/java/driver/Driver.java:10: error: cannot find symbol
+09-01-2025 22:40:36.212 [java] [ERROR] public static WebDriver webDriver;
+09-01-2025 22:40:36.212 [java] [ERROR] ^
+09-01-2025 22:40:36.212 [java] [ERROR] symbol:   class WebDriver
+09-01-2025 22:40:36.212 [java] [ERROR] location: class Driver
+09-01-2025 22:40:36.240 [java] [ERROR] src/test/java/driver/DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+09-01-2025 22:40:36.240 [java] [ERROR] import io.github.bonigarcia.wdm.WebDriverManager;
+09-01-2025 22:40:36.240 [java] [ERROR] ^
+09-01-2025 22:40:36.262 [java] [ERROR] src/test/java/driver/DriverFactory.java:4: error: package org.openqa.selenium does not exist
+09-01-2025 22:40:36.262 [java] [ERROR] import org.openqa.selenium.WebDriver;
+09-01-2025 22:40:36.262 [java] [ERROR] ^
+09-01-2025 22:40:36.313 [java] [ERROR] src/test/java/driver/DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+09-01-2025 22:40:36.313 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+09-01-2025 22:40:36.313 [java] [ERROR] ^
+09-01-2025 22:40:36.357 [java] [ERROR] src/test/java/driver/DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+09-01-2025 22:40:36.357 [java] [ERROR] import org.openqa.selenium.firefox.FirefoxDriver;
+09-01-2025 22:40:36.357 [java] [ERROR] ^
+09-01-2025 22:40:36.495 [java] [ERROR] src/test/java/driver/DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+09-01-2025 22:40:36.495 [java] [ERROR] import org.openqa.selenium.ie.InternetExplorerDriver;
+09-01-2025 22:40:36.495 [java] [ERROR] ^
+09-01-2025 22:40:36.508 [java] [ERROR] src/test/java/driver/DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+09-01-2025 22:40:36.508 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+09-01-2025 22:40:36.508 [java] [ERROR] ^
+09-01-2025 22:40:36.514 [java] [ERROR] src/test/java/driver/DriverFactory.java:15: error: cannot find symbol
+09-01-2025 22:40:36.514 [java] [ERROR] public static WebDriver getDriver() {
+09-01-2025 22:40:36.514 [java] [ERROR] ^
+09-01-2025 22:40:36.514 [java] [ERROR] symbol:   class WebDriver
+09-01-2025 22:40:36.514 [java] [ERROR] location: class DriverFactory
+09-01-2025 22:40:36.556 [java] [ERROR] src/test/java/StepImplementation.java:12: error: cannot find symbol
+09-01-2025 22:40:36.556 [java] [ERROR] WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
+09-01-2025 22:40:36.556 [java] [ERROR] ^
+09-01-2025 22:40:36.556 [java] [ERROR] symbol:   class WebElement
+09-01-2025 22:40:36.556 [java] [ERROR] location: class StepImplementation
+09-01-2025 22:40:36.566 [java] [ERROR] src/test/java/StepImplementation.java:12: error: cannot find symbol
+09-01-2025 22:40:36.566 [java] [ERROR] WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
+09-01-2025 22:40:36.566 [java] [ERROR] ^
+09-01-2025 22:40:36.566 [java] [ERROR] symbol:   variable By
+09-01-2025 22:40:36.566 [java] [ERROR] location: class StepImplementation
+09-01-2025 22:40:36.573 [java] [ERROR] src/test/java/StepImplementation.java:20: error: cannot find symbol
+09-01-2025 22:40:36.573 [java] [ERROR] WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
+09-01-2025 22:40:36.573 [java] [ERROR] ^
+09-01-2025 22:40:36.573 [java] [ERROR] symbol:   class WebElement
+09-01-2025 22:40:36.573 [java] [ERROR] location: class StepImplementation
+09-01-2025 22:40:36.574 [java] [ERROR] src/test/java/StepImplementation.java:20: error: cannot find symbol
+09-01-2025 22:40:36.574 [java] [ERROR] WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
+09-01-2025 22:40:36.574 [java] [ERROR] ^
+09-01-2025 22:40:36.574 [java] [ERROR] symbol:   variable By
+09-01-2025 22:40:36.574 [java] [ERROR] location: class StepImplementation
+09-01-2025 22:40:39.924 [java] [ERROR] src/test/java/driver/DriverFactory.java:22: error: cannot find symbol
+09-01-2025 22:40:39.926 [java] [ERROR] WebDriverManager.iedriver().setup();
+09-01-2025 22:40:39.926 [java] [ERROR] ^
+09-01-2025 22:40:39.926 [java] [ERROR] symbol:   variable WebDriverManager
+09-01-2025 22:40:39.926 [java] [ERROR] location: class DriverFactory
+09-01-2025 22:40:39.927 [java] [ERROR] src/test/java/driver/DriverFactory.java:23: error: cannot find symbol
+09-01-2025 22:40:39.927 [java] [ERROR] return new InternetExplorerDriver();
+09-01-2025 22:40:39.927 [java] [ERROR] ^
+09-01-2025 22:40:39.928 [java] [ERROR] symbol:   class InternetExplorerDriver
+09-01-2025 22:40:39.928 [java] [ERROR] location: class DriverFactory
+09-01-2025 22:40:39.929 [java] [ERROR] src/test/java/driver/DriverFactory.java:25: error: cannot find symbol
+09-01-2025 22:40:39.929 [java] [ERROR] WebDriverManager.firefoxdriver().setup();
+09-01-2025 22:40:39.932 [java] [ERROR] ^
+09-01-2025 22:40:39.932 [java] [ERROR] symbol:   variable WebDriverManager
+09-01-2025 22:40:39.933 [java] [ERROR] location: class DriverFactory
+09-01-2025 22:40:39.962 [java] [ERROR] src/test/java/driver/DriverFactory.java:26: error: cannot find symbol
+09-01-2025 22:40:39.962 [java] [ERROR] return new FirefoxDriver();
+09-01-2025 22:40:39.963 [java] [ERROR] ^
+09-01-2025 22:40:39.963 [java] [ERROR] symbol:   class FirefoxDriver
+09-01-2025 22:40:39.963 [java] [ERROR] location: class DriverFactory
+09-01-2025 22:40:39.965 [java] [ERROR] src/test/java/driver/DriverFactory.java:29: error: cannot find symbol
+09-01-2025 22:40:39.965 [java] [ERROR] WebDriverManager.chromedriver().setup();
+09-01-2025 22:40:39.965 [java] [ERROR] ^
+09-01-2025 22:40:39.965 [java] [ERROR] symbol:   variable WebDriverManager
+09-01-2025 22:40:39.965 [java] [ERROR] location: class DriverFactory
+09-01-2025 22:40:39.966 [java] [ERROR] src/test/java/driver/DriverFactory.java:31: error: cannot find symbol
+09-01-2025 22:40:39.966 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+09-01-2025 22:40:39.967 [java] [ERROR] 	            ^
+09-01-2025 22:40:39.968 [java] [ERROR] symbol:   class ChromeOptions
+09-01-2025 22:40:39.970 [java] [ERROR] location: class DriverFactory
+09-01-2025 22:40:39.984 [java] [ERROR] src/test/java/driver/DriverFactory.java:31: error: cannot find symbol
+09-01-2025 22:40:39.984 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+09-01-2025 22:40:39.984 [java] [ERROR] 	                                        ^
+09-01-2025 22:40:39.985 [java] [ERROR] symbol:   class ChromeOptions
+09-01-2025 22:40:39.985 [java] [ERROR] location: class DriverFactory
+09-01-2025 22:40:39.988 [java] [ERROR] src/test/java/driver/DriverFactory.java:37: error: cannot find symbol
+09-01-2025 22:40:39.988 [java] [ERROR] 	            return new ChromeDriver(options);
+09-01-2025 22:40:39.988 [java] [ERROR] 	                       ^
+09-01-2025 22:40:39.988 [java] [ERROR] symbol:   class ChromeDriver
+09-01-2025 22:40:39.988 [java] [ERROR] location: class DriverFactory
+09-01-2025 22:40:39.990 [java] [ERROR] 23 errors
+09-01-2025 22:40:40.059 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+09-01-2025 22:40:40.059 [Gauge] [DEBUG] Gauge could not initialize. Install 'vscjava.vscode-java-pack' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+09-01-2025 22:40:40.059 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+09-01-2025 22:40:40.084 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+09-01-2025 23:07:26.902 [Gauge] [CRITICAL] Failed to read execution status information. Reason: File /Users/mohammadk/gauge-java/guage-java-sel/.gauge/executionStatus.json doesn't exist.
+09-01-2025 23:07:27.240 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+09-01-2025 23:07:27.241 [Gauge] [INFO] Initializing specs cache with 1 specs
+09-01-2025 23:07:27.241 [Gauge] [DEBUG] Adding specs from /Users/mohammadk/gauge-java/guage-java-sel/specs/example.spec
+09-01-2025 23:07:27.241 [Gauge] [INFO] Initializing steps cache with 1 steps
+09-01-2025 23:07:27.242 [Gauge] [DEBUG] Watching directory: /Users/mohammadk/gauge-java/guage-java-sel/specs
+09-01-2025 23:07:27.242 [Gauge] [DEBUG] Found 1 files
+09-01-2025 23:07:27.243 [Gauge] [INFO] Starting language runner
+09-01-2025 23:07:27.515 [java] [DEBUG] ***** Printing Properties/Env Values *****
+09-01-2025 23:07:27.516 [java] [DEBUG] PATH: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin:/usr/local/Cellar/openjdk@11/11.0.24/libexec/openjdk.jdk/Contents/Home/bin:/Users/mohammadk/Library/Android/sdk/emulator:/Users/mohammadk/Library/Android/sdk/tools:/Users/mohammadk/Library/Android/sdk/platform-tools:/Users/mohammadk/Library/Android/sdk/tools:/Users/mohammadk/.nvm/versions/node/v18.15.0/bin:/usr/local/bin:/usr/local/sbin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/mohammadk/.gauge/plugins/screenshot/0.3.0
+09-01-2025 23:07:27.516 [java] [DEBUG] JAVA_HOME: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home
+09-01-2025 23:07:27.516 [java] [DEBUG] gauge_project_root: 
+09-01-2025 23:07:27.516 [java] [DEBUG] gauge_parallel_streams_count: 
+09-01-2025 23:07:27.516 [java] [DEBUG] gauge_reports_dir: reports
+09-01-2025 23:07:27.516 [java] [DEBUG] overwrite_reports: true
+09-01-2025 23:07:27.516 [java] [DEBUG] logs_directory: logs
+09-01-2025 23:07:27.516 [java] [DEBUG] enable_multithreading: false
+09-01-2025 23:07:27.516 [java] [DEBUG] gauge_specs_dir: specs
+09-01-2025 23:07:27.516 [java] [DEBUG] csv_delimiter: ,
+09-01-2025 23:07:27.516 [java] [DEBUG] gauge_java_home: 
+09-01-2025 23:07:27.516 [java] [DEBUG] gauge_custom_build_path: 
+09-01-2025 23:07:27.516 [java] [DEBUG] gauge_additional_libs: libs/*
+09-01-2025 23:07:27.516 [java] [DEBUG] gauge_jvm_args: 
+09-01-2025 23:07:27.516 [java] [DEBUG] gauge_custom_compile_dir: 
+09-01-2025 23:07:27.516 [java] [DEBUG] gauge_clear_state_level: scenario
+09-01-2025 23:07:27.516 [java] [DEBUG] ***** END *****
+09-01-2025 23:07:27.901 [java] [ERROR] The JAVA_HOME environment variable is not defined correctly,
+09-01-2025 23:07:27.901 [java] [ERROR] this environment variable is needed to run this program.
+09-01-2025 23:07:27.901 [java] [ERROR] exit status 1
+09-01-2025 23:07:27.902 [java] [ERROR] Installed version of gauge-java (0.11.2) does not match with dependency gauge-java () specified in pom.xml file
+09-01-2025 23:07:27.904 [java] [DEBUG] failed to get full path for javac. lstat /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home: no such file or directory
+09-01-2025 23:07:27.905 [java] [DEBUG] running - javac [-encoding UTF-8 -d gauge_bin @/var/folders/wv/nzqhpy6d18gfhd55gq_t8kr00000gq/T/gauge_temp3965713923/76561fd9ee0dd86c2c398b724cadd6fd]
+09-01-2025 23:07:27.905 [java] [DEBUG] stdout/stderr is logged to logs/96489-javac.out
+09-01-2025 23:07:29.433 [java] [ERROR] src/test/java/StepImplementation.java:4: error: package org.openqa.selenium does not exist
+09-01-2025 23:07:29.433 [java] [ERROR] import org.openqa.selenium.By;
+09-01-2025 23:07:29.433 [java] [ERROR] ^
+09-01-2025 23:07:29.454 [java] [ERROR] src/test/java/StepImplementation.java:5: error: package org.openqa.selenium does not exist
+09-01-2025 23:07:29.454 [java] [ERROR] import org.openqa.selenium.WebElement;
+09-01-2025 23:07:29.454 [java] [ERROR] ^
+09-01-2025 23:07:29.515 [java] [ERROR] src/test/java/driver/Driver.java:5: error: package org.openqa.selenium does not exist
+09-01-2025 23:07:29.515 [java] [ERROR] import org.openqa.selenium.WebDriver;
+09-01-2025 23:07:29.515 [java] [ERROR] ^
+09-01-2025 23:07:29.520 [java] [ERROR] src/test/java/driver/Driver.java:10: error: cannot find symbol
+09-01-2025 23:07:29.520 [java] [ERROR] public static WebDriver webDriver;
+09-01-2025 23:07:29.520 [java] [ERROR] ^
+09-01-2025 23:07:29.520 [java] [ERROR] symbol:   class WebDriver
+09-01-2025 23:07:29.520 [java] [ERROR] location: class Driver
+09-01-2025 23:07:29.551 [java] [ERROR] src/test/java/driver/DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+09-01-2025 23:07:29.551 [java] [ERROR] import io.github.bonigarcia.wdm.WebDriverManager;
+09-01-2025 23:07:29.552 [java] [ERROR] ^
+09-01-2025 23:07:29.559 [java] [ERROR] src/test/java/driver/DriverFactory.java:4: error: package org.openqa.selenium does not exist
+09-01-2025 23:07:29.559 [java] [ERROR] import org.openqa.selenium.WebDriver;
+09-01-2025 23:07:29.559 [java] [ERROR] ^
+09-01-2025 23:07:29.571 [java] [ERROR] src/test/java/driver/DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+09-01-2025 23:07:29.571 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+09-01-2025 23:07:29.571 [java] [ERROR] ^
+09-01-2025 23:07:29.583 [java] [ERROR] src/test/java/driver/DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+09-01-2025 23:07:29.583 [java] [ERROR] import org.openqa.selenium.firefox.FirefoxDriver;
+09-01-2025 23:07:29.583 [java] [ERROR] ^
+09-01-2025 23:07:29.595 [java] [ERROR] src/test/java/driver/DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+09-01-2025 23:07:29.596 [java] [ERROR] import org.openqa.selenium.ie.InternetExplorerDriver;
+09-01-2025 23:07:29.596 [java] [ERROR] ^
+09-01-2025 23:07:29.603 [java] [ERROR] src/test/java/driver/DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+09-01-2025 23:07:29.603 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+09-01-2025 23:07:29.603 [java] [ERROR] ^
+09-01-2025 23:07:29.609 [java] [ERROR] src/test/java/driver/DriverFactory.java:15: error: cannot find symbol
+09-01-2025 23:07:29.609 [java] [ERROR] public static WebDriver getDriver() {
+09-01-2025 23:07:29.609 [java] [ERROR] ^
+09-01-2025 23:07:29.609 [java] [ERROR] symbol:   class WebDriver
+09-01-2025 23:07:29.609 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:07:29.650 [java] [ERROR] src/test/java/StepImplementation.java:12: error: cannot find symbol
+09-01-2025 23:07:29.650 [java] [ERROR] WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
+09-01-2025 23:07:29.650 [java] [ERROR] ^
+09-01-2025 23:07:29.650 [java] [ERROR] symbol:   class WebElement
+09-01-2025 23:07:29.650 [java] [ERROR] location: class StepImplementation
+09-01-2025 23:07:29.657 [java] [ERROR] src/test/java/StepImplementation.java:12: error: cannot find symbol
+09-01-2025 23:07:29.658 [java] [ERROR] WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
+09-01-2025 23:07:29.658 [java] [ERROR] ^
+09-01-2025 23:07:29.658 [java] [ERROR] symbol:   variable By
+09-01-2025 23:07:29.658 [java] [ERROR] location: class StepImplementation
+09-01-2025 23:07:29.662 [java] [ERROR] src/test/java/StepImplementation.java:20: error: cannot find symbol
+09-01-2025 23:07:29.662 [java] [ERROR] WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
+09-01-2025 23:07:29.662 [java] [ERROR] ^
+09-01-2025 23:07:29.662 [java] [ERROR] symbol:   class WebElement
+09-01-2025 23:07:29.662 [java] [ERROR] location: class StepImplementation
+09-01-2025 23:07:29.663 [java] [ERROR] src/test/java/StepImplementation.java:20: error: cannot find symbol
+09-01-2025 23:07:29.663 [java] [ERROR] WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
+09-01-2025 23:07:29.663 [java] [ERROR] ^
+09-01-2025 23:07:29.664 [java] [ERROR] symbol:   variable By
+09-01-2025 23:07:29.664 [java] [ERROR] location: class StepImplementation
+09-01-2025 23:07:30.665 [java] [ERROR] src/test/java/driver/DriverFactory.java:22: error: cannot find symbol
+09-01-2025 23:07:30.665 [java] [ERROR] WebDriverManager.iedriver().setup();
+09-01-2025 23:07:30.665 [java] [ERROR] ^
+09-01-2025 23:07:30.665 [java] [ERROR] symbol:   variable WebDriverManager
+09-01-2025 23:07:30.665 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:07:30.666 [java] [ERROR] src/test/java/driver/DriverFactory.java:23: error: cannot find symbol
+09-01-2025 23:07:30.666 [java] [ERROR] return new InternetExplorerDriver();
+09-01-2025 23:07:30.666 [java] [ERROR] ^
+09-01-2025 23:07:30.666 [java] [ERROR] symbol:   class InternetExplorerDriver
+09-01-2025 23:07:30.666 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:07:30.667 [java] [ERROR] src/test/java/driver/DriverFactory.java:25: error: cannot find symbol
+09-01-2025 23:07:30.667 [java] [ERROR] WebDriverManager.firefoxdriver().setup();
+09-01-2025 23:07:30.667 [java] [ERROR] ^
+09-01-2025 23:07:30.667 [java] [ERROR] symbol:   variable WebDriverManager
+09-01-2025 23:07:30.667 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:07:30.668 [java] [ERROR] src/test/java/driver/DriverFactory.java:26: error: cannot find symbol
+09-01-2025 23:07:30.668 [java] [ERROR] return new FirefoxDriver();
+09-01-2025 23:07:30.668 [java] [ERROR] ^
+09-01-2025 23:07:30.668 [java] [ERROR] symbol:   class FirefoxDriver
+09-01-2025 23:07:30.668 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:07:30.668 [java] [ERROR] src/test/java/driver/DriverFactory.java:29: error: cannot find symbol
+09-01-2025 23:07:30.668 [java] [ERROR] WebDriverManager.chromedriver().setup();
+09-01-2025 23:07:30.668 [java] [ERROR] ^
+09-01-2025 23:07:30.668 [java] [ERROR] symbol:   variable WebDriverManager
+09-01-2025 23:07:30.668 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:07:30.669 [java] [ERROR] src/test/java/driver/DriverFactory.java:31: error: cannot find symbol
+09-01-2025 23:07:30.669 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+09-01-2025 23:07:30.669 [java] [ERROR] 	            ^
+09-01-2025 23:07:30.669 [java] [ERROR] symbol:   class ChromeOptions
+09-01-2025 23:07:30.669 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:07:30.670 [java] [ERROR] src/test/java/driver/DriverFactory.java:31: error: cannot find symbol
+09-01-2025 23:07:30.670 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+09-01-2025 23:07:30.670 [java] [ERROR] 	                                        ^
+09-01-2025 23:07:30.670 [java] [ERROR] symbol:   class ChromeOptions
+09-01-2025 23:07:30.670 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:07:30.672 [java] [ERROR] src/test/java/driver/DriverFactory.java:37: error: cannot find symbol
+09-01-2025 23:07:30.672 [java] [ERROR] 	            return new ChromeDriver(options);
+09-01-2025 23:07:30.672 [java] [ERROR] 	                       ^
+09-01-2025 23:07:30.672 [java] [ERROR] symbol:   class ChromeDriver
+09-01-2025 23:07:30.672 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:07:30.674 [java] [ERROR] 23 errors
+09-01-2025 23:07:30.711 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+09-01-2025 23:07:30.712 [Gauge] [DEBUG] Gauge could not initialize. Install 'vscjava.vscode-java-pack' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+09-01-2025 23:07:30.712 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+09-01-2025 23:07:30.720 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+09-01-2025 23:09:04.210 [Gauge] [CRITICAL] Failed to read execution status information. Reason: File /Users/mohammadk/gauge-java/guage-java-sel/.gauge/executionStatus.json doesn't exist.
+09-01-2025 23:09:04.281 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+09-01-2025 23:09:04.282 [Gauge] [INFO] Initializing specs cache with 1 specs
+09-01-2025 23:09:04.282 [Gauge] [DEBUG] Adding specs from /Users/mohammadk/gauge-java/guage-java-sel/specs/example.spec
+09-01-2025 23:09:04.282 [Gauge] [INFO] Initializing steps cache with 1 steps
+09-01-2025 23:09:04.283 [Gauge] [DEBUG] Watching directory: /Users/mohammadk/gauge-java/guage-java-sel/specs
+09-01-2025 23:09:04.283 [Gauge] [DEBUG] Found 1 files
+09-01-2025 23:09:04.283 [Gauge] [INFO] Starting language runner
+09-01-2025 23:09:04.315 [java] [DEBUG] ***** Printing Properties/Env Values *****
+09-01-2025 23:09:04.315 [java] [DEBUG] PATH: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin:/usr/local/Cellar/openjdk@11/11.0.24/libexec/openjdk.jdk/Contents/Home/bin:/Users/mohammadk/Library/Android/sdk/emulator:/Users/mohammadk/Library/Android/sdk/tools:/Users/mohammadk/Library/Android/sdk/platform-tools:/Users/mohammadk/Library/Android/sdk/tools:/Users/mohammadk/.nvm/versions/node/v18.15.0/bin:/usr/local/bin:/usr/local/sbin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/mohammadk/.gauge/plugins/screenshot/0.3.0
+09-01-2025 23:09:04.315 [java] [DEBUG] JAVA_HOME: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home
+09-01-2025 23:09:04.315 [java] [DEBUG] gauge_project_root: 
+09-01-2025 23:09:04.315 [java] [DEBUG] gauge_parallel_streams_count: 
+09-01-2025 23:09:04.315 [java] [DEBUG] gauge_reports_dir: reports
+09-01-2025 23:09:04.315 [java] [DEBUG] overwrite_reports: true
+09-01-2025 23:09:04.315 [java] [DEBUG] logs_directory: logs
+09-01-2025 23:09:04.315 [java] [DEBUG] enable_multithreading: false
+09-01-2025 23:09:04.315 [java] [DEBUG] gauge_specs_dir: specs
+09-01-2025 23:09:04.316 [java] [DEBUG] csv_delimiter: ,
+09-01-2025 23:09:04.316 [java] [DEBUG] gauge_java_home: 
+09-01-2025 23:09:04.316 [java] [DEBUG] gauge_custom_build_path: 
+09-01-2025 23:09:04.316 [java] [DEBUG] gauge_additional_libs: libs/*
+09-01-2025 23:09:04.316 [java] [DEBUG] gauge_jvm_args: 
+09-01-2025 23:09:04.317 [java] [DEBUG] gauge_custom_compile_dir: 
+09-01-2025 23:09:04.317 [java] [DEBUG] gauge_clear_state_level: scenario
+09-01-2025 23:09:04.317 [java] [DEBUG] ***** END *****
+09-01-2025 23:09:04.382 [java] [ERROR] The JAVA_HOME environment variable is not defined correctly,
+09-01-2025 23:09:04.382 [java] [ERROR] this environment variable is needed to run this program.
+09-01-2025 23:09:04.382 [java] [ERROR] exit status 1
+09-01-2025 23:09:04.383 [java] [ERROR] Installed version of gauge-java (0.11.2) does not match with dependency gauge-java () specified in pom.xml file
+09-01-2025 23:09:04.386 [java] [DEBUG] failed to get full path for javac. lstat /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home: no such file or directory
+09-01-2025 23:09:04.387 [java] [DEBUG] running - javac [-encoding UTF-8 -d gauge_bin @/var/folders/wv/nzqhpy6d18gfhd55gq_t8kr00000gq/T/gauge_temp375009412/7900a712117f83b590962abab3d32ea7]
+09-01-2025 23:09:04.387 [java] [DEBUG] stdout/stderr is logged to logs/96904-javac.out
+09-01-2025 23:09:06.134 [java] [ERROR] src/test/java/StepImplementation.java:4: error: package org.openqa.selenium does not exist
+09-01-2025 23:09:06.134 [java] [ERROR] import org.openqa.selenium.By;
+09-01-2025 23:09:06.134 [java] [ERROR] ^
+09-01-2025 23:09:06.152 [java] [ERROR] src/test/java/StepImplementation.java:5: error: package org.openqa.selenium does not exist
+09-01-2025 23:09:06.152 [java] [ERROR] import org.openqa.selenium.WebElement;
+09-01-2025 23:09:06.152 [java] [ERROR] ^
+09-01-2025 23:09:06.225 [java] [ERROR] src/test/java/driver/Driver.java:5: error: package org.openqa.selenium does not exist
+09-01-2025 23:09:06.225 [java] [ERROR] import org.openqa.selenium.WebDriver;
+09-01-2025 23:09:06.225 [java] [ERROR] ^
+09-01-2025 23:09:06.229 [java] [ERROR] src/test/java/driver/Driver.java:10: error: cannot find symbol
+09-01-2025 23:09:06.229 [java] [ERROR] public static WebDriver webDriver;
+09-01-2025 23:09:06.229 [java] [ERROR] ^
+09-01-2025 23:09:06.229 [java] [ERROR] symbol:   class WebDriver
+09-01-2025 23:09:06.229 [java] [ERROR] location: class Driver
+09-01-2025 23:09:06.250 [java] [ERROR] src/test/java/driver/DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+09-01-2025 23:09:06.250 [java] [ERROR] import io.github.bonigarcia.wdm.WebDriverManager;
+09-01-2025 23:09:06.250 [java] [ERROR] ^
+09-01-2025 23:09:06.264 [java] [ERROR] src/test/java/driver/DriverFactory.java:4: error: package org.openqa.selenium does not exist
+09-01-2025 23:09:06.264 [java] [ERROR] import org.openqa.selenium.WebDriver;
+09-01-2025 23:09:06.264 [java] [ERROR] ^
+09-01-2025 23:09:06.289 [java] [ERROR] src/test/java/driver/DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+09-01-2025 23:09:06.289 [java] [ERROR] import org.openqa.selenium.chrome.ChromeDriver;
+09-01-2025 23:09:06.289 [java] [ERROR] ^
+09-01-2025 23:09:06.303 [java] [ERROR] src/test/java/driver/DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+09-01-2025 23:09:06.303 [java] [ERROR] import org.openqa.selenium.firefox.FirefoxDriver;
+09-01-2025 23:09:06.303 [java] [ERROR] ^
+09-01-2025 23:09:06.330 [java] [ERROR] src/test/java/driver/DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+09-01-2025 23:09:06.331 [java] [ERROR] import org.openqa.selenium.ie.InternetExplorerDriver;
+09-01-2025 23:09:06.331 [java] [ERROR] ^
+09-01-2025 23:09:06.343 [java] [ERROR] src/test/java/driver/DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+09-01-2025 23:09:06.343 [java] [ERROR] import org.openqa.selenium.chrome.ChromeOptions;
+09-01-2025 23:09:06.343 [java] [ERROR] ^
+09-01-2025 23:09:06.347 [java] [ERROR] src/test/java/driver/DriverFactory.java:15: error: cannot find symbol
+09-01-2025 23:09:06.347 [java] [ERROR] public static WebDriver getDriver() {
+09-01-2025 23:09:06.347 [java] [ERROR] ^
+09-01-2025 23:09:06.347 [java] [ERROR] symbol:   class WebDriver
+09-01-2025 23:09:06.347 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:09:06.400 [java] [ERROR] src/test/java/StepImplementation.java:12: error: cannot find symbol
+09-01-2025 23:09:06.400 [java] [ERROR] WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
+09-01-2025 23:09:06.400 [java] [ERROR] ^
+09-01-2025 23:09:06.400 [java] [ERROR] symbol:   class WebElement
+09-01-2025 23:09:06.400 [java] [ERROR] location: class StepImplementation
+09-01-2025 23:09:06.414 [java] [ERROR] src/test/java/StepImplementation.java:12: error: cannot find symbol
+09-01-2025 23:09:06.414 [java] [ERROR] WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
+09-01-2025 23:09:06.415 [java] [ERROR] ^
+09-01-2025 23:09:06.415 [java] [ERROR] symbol:   variable By
+09-01-2025 23:09:06.415 [java] [ERROR] location: class StepImplementation
+09-01-2025 23:09:06.425 [java] [ERROR] src/test/java/StepImplementation.java:20: error: cannot find symbol
+09-01-2025 23:09:06.426 [java] [ERROR] WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
+09-01-2025 23:09:06.426 [java] [ERROR] ^
+09-01-2025 23:09:06.426 [java] [ERROR] symbol:   class WebElement
+09-01-2025 23:09:06.426 [java] [ERROR] location: class StepImplementation
+09-01-2025 23:09:06.426 [java] [ERROR] src/test/java/StepImplementation.java:20: error: cannot find symbol
+09-01-2025 23:09:06.427 [java] [ERROR] WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
+09-01-2025 23:09:06.427 [java] [ERROR] ^
+09-01-2025 23:09:06.427 [java] [ERROR] symbol:   variable By
+09-01-2025 23:09:06.427 [java] [ERROR] location: class StepImplementation
+09-01-2025 23:09:07.385 [java] [ERROR] src/test/java/driver/DriverFactory.java:22: error: cannot find symbol
+09-01-2025 23:09:07.385 [java] [ERROR] WebDriverManager.iedriver().setup();
+09-01-2025 23:09:07.385 [java] [ERROR] ^
+09-01-2025 23:09:07.385 [java] [ERROR] symbol:   variable WebDriverManager
+09-01-2025 23:09:07.385 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:09:07.385 [java] [ERROR] src/test/java/driver/DriverFactory.java:23: error: cannot find symbol
+09-01-2025 23:09:07.386 [java] [ERROR] return new InternetExplorerDriver();
+09-01-2025 23:09:07.386 [java] [ERROR] ^
+09-01-2025 23:09:07.386 [java] [ERROR] symbol:   class InternetExplorerDriver
+09-01-2025 23:09:07.386 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:09:07.387 [java] [ERROR] src/test/java/driver/DriverFactory.java:25: error: cannot find symbol
+09-01-2025 23:09:07.387 [java] [ERROR] WebDriverManager.firefoxdriver().setup();
+09-01-2025 23:09:07.387 [java] [ERROR] ^
+09-01-2025 23:09:07.387 [java] [ERROR] symbol:   variable WebDriverManager
+09-01-2025 23:09:07.387 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:09:07.388 [java] [ERROR] src/test/java/driver/DriverFactory.java:26: error: cannot find symbol
+09-01-2025 23:09:07.388 [java] [ERROR] return new FirefoxDriver();
+09-01-2025 23:09:07.388 [java] [ERROR] ^
+09-01-2025 23:09:07.388 [java] [ERROR] symbol:   class FirefoxDriver
+09-01-2025 23:09:07.388 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:09:07.389 [java] [ERROR] src/test/java/driver/DriverFactory.java:29: error: cannot find symbol
+09-01-2025 23:09:07.389 [java] [ERROR] WebDriverManager.chromedriver().setup();
+09-01-2025 23:09:07.389 [java] [ERROR] ^
+09-01-2025 23:09:07.389 [java] [ERROR] symbol:   variable WebDriverManager
+09-01-2025 23:09:07.389 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:09:07.390 [java] [ERROR] src/test/java/driver/DriverFactory.java:31: error: cannot find symbol
+09-01-2025 23:09:07.390 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+09-01-2025 23:09:07.390 [java] [ERROR] 	            ^
+09-01-2025 23:09:07.390 [java] [ERROR] symbol:   class ChromeOptions
+09-01-2025 23:09:07.390 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:09:07.390 [java] [ERROR] src/test/java/driver/DriverFactory.java:31: error: cannot find symbol
+09-01-2025 23:09:07.390 [java] [ERROR] 	            ChromeOptions options = new ChromeOptions();
+09-01-2025 23:09:07.390 [java] [ERROR] 	                                        ^
+09-01-2025 23:09:07.390 [java] [ERROR] symbol:   class ChromeOptions
+09-01-2025 23:09:07.390 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:09:07.392 [java] [ERROR] src/test/java/driver/DriverFactory.java:37: error: cannot find symbol
+09-01-2025 23:09:07.392 [java] [ERROR] 	            return new ChromeDriver(options);
+09-01-2025 23:09:07.392 [java] [ERROR] 	                       ^
+09-01-2025 23:09:07.392 [java] [ERROR] symbol:   class ChromeDriver
+09-01-2025 23:09:07.392 [java] [ERROR] location: class DriverFactory
+09-01-2025 23:09:07.393 [java] [ERROR] 23 errors
+09-01-2025 23:09:07.446 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+09-01-2025 23:09:07.446 [Gauge] [DEBUG] Gauge could not initialize. Install 'vscjava.vscode-java-pack' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+09-01-2025 23:09:07.446 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+09-01-2025 23:09:07.461 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+09-01-2025 23:50:02.903 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec
+09-01-2025 23:50:02.977 [Gauge] [DEBUG] request #15: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec:1 Spec does not have any elements => '']
+09-01-2025 23:50:03.235 [Gauge] [DEBUG] request #16: textDocument/codeLens: failed to parse /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec
+/Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec:1 Spec does not have any elements
+09-01-2025 23:50:03.266 [Gauge] [DEBUG] request #17: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec:1 Spec does not have any elements => '']
+09-01-2025 23:50:04.948 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec
+09-01-2025 23:54:13.882 [Gauge] [DEBUG] Spec file removed: /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec
+10-01-2025 00:04:01.707 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec
+10-01-2025 00:04:01.821 [Gauge] [DEBUG] request #36: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec:1 Spec does not have any elements => '']
+10-01-2025 00:04:02.083 [Gauge] [DEBUG] request #37: textDocument/codeLens: failed to parse /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec
+/Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec:1 Spec does not have any elements
+10-01-2025 00:04:02.099 [Gauge] [DEBUG] request #38: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec:1 Spec does not have any elements => '']
+10-01-2025 00:04:03.334 [Gauge] [DEBUG] request #39: textDocument/codeLens: failed to parse /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec
+/Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec:1 Spec does not have any elements
+10-01-2025 00:04:06.814 [Gauge] [DEBUG] request #45: textDocument/codeLens: failed to parse /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec
+/Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec:1 Spec does not have any elements
+10-01-2025 00:04:07.020 [Gauge] [DEBUG] request #46: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec:1 Spec does not have any elements => '']
+10-01-2025 00:04:08.110 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec
+10-01-2025 00:04:10.504 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example2.spec
+10-01-2025 00:06:08.976 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec
+10-01-2025 00:06:09.058 [Gauge] [DEBUG] request #55: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec:1 Spec does not have any elements => '']
+10-01-2025 00:06:09.313 [Gauge] [DEBUG] request #56: textDocument/codeLens: failed to parse /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec
+/Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec:1 Spec does not have any elements
+10-01-2025 00:06:09.360 [Gauge] [DEBUG] request #57: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec:1 Spec does not have any elements => '']
+10-01-2025 00:06:15.657 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example.spec
+10-01-2025 00:06:17.353 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example.spec
+10-01-2025 00:06:18.452 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example.spec
+10-01-2025 00:06:20.432 [Gauge] [DEBUG] request #84: textDocument/codeLens: failed to parse /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec
+/Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec:1 Spec does not have any elements
+10-01-2025 00:06:20.481 [Gauge] [DEBUG] request #85: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec:1 Spec does not have any elements => '']
+10-01-2025 00:06:25.335 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example.spec
+10-01-2025 00:06:29.036 [Gauge] [DEBUG] request #108: textDocument/codeLens: failed to parse /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec
+/Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec:1 Spec does not have any elements
+10-01-2025 00:06:29.085 [Gauge] [DEBUG] request #109: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec:1 Spec does not have any elements => '']
+10-01-2025 00:06:30.077 [Gauge] [DEBUG] request #110: textDocument/codeLens: failed to parse /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec
+/Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec:1 Spec does not have any elements
+10-01-2025 00:06:31.120 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec
+10-01-2025 00:06:32.802 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec
+10-01-2025 00:06:36.380 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec
+10-01-2025 00:06:37.858 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example3.spec
+10-01-2025 13:56:49.893 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec
+10-01-2025 13:56:49.962 [Gauge] [DEBUG] request #180: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec:1 Spec does not have any elements => '']
+10-01-2025 13:56:50.224 [Gauge] [DEBUG] request #181: textDocument/codeLens: failed to parse /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec
+/Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec:1 Spec does not have any elements
+10-01-2025 13:56:50.257 [Gauge] [DEBUG] request #182: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec:1 Spec does not have any elements => '']
+10-01-2025 13:57:03.448 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example1.spec
+10-01-2025 13:57:03.449 [Gauge] [DEBUG] Spec file removed: /Users/mohammadk/gauge-java/guage-java-sel/specs/example.spec
+10-01-2025 13:57:51.036 [Gauge] [DEBUG] request #187: textDocument/codeLens: failed to parse /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec
+/Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec:1 Spec does not have any elements
+10-01-2025 13:57:51.085 [Gauge] [DEBUG] request #188: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec:1 Spec does not have any elements => '']
+10-01-2025 13:57:54.786 [Gauge] [DEBUG] request #195: textDocument/codeLens: failed to parse /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec
+/Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec:1 Spec does not have any elements
+10-01-2025 13:57:54.834 [Gauge] [DEBUG] request #196: textDocument/documentSymbol: parsing failed for /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec. [[ParseError] /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec:1 Spec does not have any elements => '']
+10-01-2025 13:57:55.120 [Gauge] [DEBUG] request #197: textDocument/codeLens: failed to parse /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec
+/Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec:1 Spec does not have any elements
+10-01-2025 13:57:56.400 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec
+10-01-2025 13:57:58.565 [Gauge] [DEBUG] Spec file added / modified: /Users/mohammadk/gauge-java/guage-java-sel/specs/example4.spec

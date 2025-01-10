@@ -1,0 +1,9 @@
+[
+	"gauge",
+	"run",
+	"--parallel",
+	"-n",
+	"4",
+	"--dir=/Users/mohammadk/gauge-java/guage-java-sel",
+	"/Users/mohammadk/gauge-java/guage-java-sel/specs"
+]

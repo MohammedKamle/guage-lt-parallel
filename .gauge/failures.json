@@ -1,0 +1,10 @@
+{
+	"Args": [
+		"run",
+		"--parallel",
+		"-n",
+		"4",
+		"--dir=/Users/mohammadk/gauge-java/guage-java-sel"
+	],
+	"FailedItems": []
+}
