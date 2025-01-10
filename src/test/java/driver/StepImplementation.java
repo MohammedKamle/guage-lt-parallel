@@ -1,14 +1,11 @@
 package driver;
-import com.thoughtworks.gauge.Gauge;
+
 import com.thoughtworks.gauge.Step;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
-import static org.assertj.core.api.Assertions.assertThat;
 
-public class StepImplementation extends Driver{
+public class StepImplementation extends DriverFactory{
 
     // private  WebDriver driver;
 
@@ -35,7 +32,6 @@ public class StepImplementation extends Driver{
         threadLocalDriver.get().findElement(By.id("sampletodotext")).sendKeys(" List Item 6");
         threadLocalDriver.get().findElement(By.xpath("//*[@id = 'addbutton']")).click();
 
-       // driver.quit();
     }
 
     @Step("Open the Gauge homepage")
